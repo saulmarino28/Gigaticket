@@ -1,3 +1,6 @@
+editClient
+paginasAC
+paginasEC
 AccesoAddUser.php
 AccesoAddUser.js
 actualizarCliente.php
@@ -24,6 +27,3 @@ UserGiga.html
 userGiga.js
 UserGiga.php
 UserGiga2.php
-editClient
-paginasAC
-paginasEC
