@@ -59,9 +59,21 @@ $tipo = get_usertype();
              printf("Errormessage: %s\n", $conexion->error,"<br>");
             }
             else { */
+              
+            /*
+            
+            $Datos = $resultado->fetch_assoc();
+            
+            $resultado->close();
+            $conexion->close();
+            session_start();
+            $_SESSION['usuario'] = $Datos['UserName'];
+            $_SESSION['email'] = $Datos['Correo']; 
+
+            */
              $conexion->close();  
-             //}
              
+            
              session_start();
              $_SESSION['usuario'] = $userName;
              header("Location:http://localhost/esp32/paginasBootstrap/control_de_usuarios/index.php");

@@ -175,19 +175,14 @@ a.sai:hover {
               }
             else { 
 
+
            // $query2 = "SELECT usuario.UserName FROM usuario WHERE  usuario.Correo = '$email' AND  usuario.Contraseña = '$pswd' ";
             $Datos = $resultado->fetch_assoc();
             /*
             echo " BIENVENIDO <br>"; 
             echo "Bienvenido " . $Datos['Nombre'] . " " . $Datos['Apellido'] . " Tu usuario es: " . $Datos['UserName'] . ".<br>";
 
-            session_start();
-            /*
-            while ($UserName = $resultado->fetch_assoc()) {
-             echo "<li><a href='" . $_SERVER['SCRIPT_FILENAME'] . "?aid=" . $actor['actor_id'] . "'>\n";
-             echo $actor['first_name'] . ' ' . $actor['last_name'];
-             echo "</a></li>\n";
-            }
+           
             */
             $resultado->close();
             $conexion->close();
